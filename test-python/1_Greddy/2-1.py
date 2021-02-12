@@ -13,8 +13,8 @@ while True: # 무한루프
         if m == 0: break; # m = 0이면 for문 종료
         result += first
         m -= 1 # 더할 때마다 1씩 감소
-    if m == 0: break;
+    if m == 0: break
     result += second
-    m -= 1;
+    m -= 1
 
 print(result)
