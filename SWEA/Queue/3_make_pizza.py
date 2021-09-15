@@ -21,7 +21,6 @@ for test_case in range(1, T + 1):
                 oven.pop(0)
         else:
             oven.append(oven.pop(0))
-        print(oven)
 
     answer.append(oven[0][1] + 1)
 
