@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+struct SHuman{
+    char name[12];
+    int age;
+
+    void Intro(){
+        printf("Name : %s, Age : %d\n", name, age);
+    }
+};
+
+int main()
+{
+    SHuman kim = {"KIM", 29};
+    kim.Intro();
+}
