@@ -1,3 +1,4 @@
-n = list(input())
-n = sorted(n, reverse=True)
-print(''.join(n))
+n = int(input())
+for _ in range(n):
+    num = input().split(',')
+    print(int(num[0])+int(num[1]))
