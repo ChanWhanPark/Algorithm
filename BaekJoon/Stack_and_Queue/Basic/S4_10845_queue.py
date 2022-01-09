@@ -1,3 +1,4 @@
+## 10845. 큐 (10.02 01.09) S4
 import sys
 
 n = int(input())
